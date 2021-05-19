@@ -22,12 +22,16 @@
 ```bash
 ~$ ./bank.py
 Service started!
+
 > deposit --client="John Jones" --amount=100 --description="ATM Deposit"
 Deposit operation was successful!
+
 > withdraw --client="John Jones" --amount=100 --description="ATM Withdrawal"
 Withdrawal operation was successful!
+
 > show_bank_statement --client="John Jones" --since="2021-01-01 00:00:00" --till="2021-02-01
 00:00:00"
+
 | Date              | Description       | Withdrawals    | Deposits      | Balance |
 |-------------------|-------------------|----------------|---------------|---------|
 |                   | Previous balance  |                |               | $0.00   |
